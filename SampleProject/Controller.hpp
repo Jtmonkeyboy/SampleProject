@@ -19,6 +19,7 @@ private:
 public:
     Controller();
     void start();
+    long simpleHash(string word);
 };
 
 #endif /* Controller_hpp */
